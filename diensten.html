@@ -330,14 +330,14 @@ img { max-width: 100%; height: auto; display: block; }
 <!-- NAV -->
 <nav class="nav">
   <div class="nav-inner">
-    <a href="home.html" class="logo">
+    <a href="index.html" class="logo">
       <span class="logo-name">Passmann</span>
       <span class="logo-sub">Construcciones y Rehabilitaciones</span>
       <span class="logo-accent"></span>
     </a>
     <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
     <div class="nav-links">
-      <a href="home.html"                    data-nav="nav_home"></a>
+      <a href="index.html"                    data-nav="nav_home"></a>
       <a href="over.html"                    data-nav="nav_over"></a>
       <a href="diensten.html" class="active" data-nav="nav_diensten"></a>
       <a href="projecten.html"               data-nav="nav_projecten"></a>
@@ -352,7 +352,7 @@ img { max-width: 100%; height: auto; display: block; }
 <header class="page-header">
   <div class="container">
     <div class="breadcrumb">
-      <a href="home.html">Home</a><span class="sep">/</span>
+      <a href="index.html">Home</a><span class="sep">/</span>
       <span class="current">
         <span data-lang="es">Servicios</span>
         <span data-lang="en">Services</span>
@@ -843,7 +843,7 @@ img { max-width: 100%; height: auto; display: block; }
   }
 
   function markActive() {
-    const path = window.location.pathname.split('/').pop() || 'home.html';
+    const path = window.location.pathname.split('/').pop() || 'index.html';
     document.querySelectorAll('.nav-links a').forEach(a => {
       const href = a.getAttribute('href') || '';
       a.classList.toggle('active', href.includes(path) && path !== '');

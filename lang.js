@@ -127,7 +127,7 @@
 
   /* ---------- mark active nav link ---------- */
   function markActive() {
-    const path = window.location.pathname.split('/').pop() || 'home.html';
+    const path = window.location.pathname.split('/').pop() || 'index.html';
     document.querySelectorAll('.nav-links a').forEach(a => {
       const href = a.getAttribute('href') || '';
       a.classList.toggle('active', href.includes(path) && path !== '');
