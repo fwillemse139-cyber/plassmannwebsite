@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"/>
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Emergencias 24h — Passmann | Costa Blanca</title>
+  <meta name="description" content="Servicio de emergencias Passmann. Presupuesto gratuito en menos de 24 horas para danos por tormenta, goteras y otros siniestros."/>
+  <span data-meta="es" data-title="Emergencias 24h — Passmann" data-desc="Servicio de emergencias. Presupuesto gratuito en 24 horas para danos por tormenta, goteras y siniestros." style="display:none"></span>
+  <span data-meta="en" data-title="Emergency Service 24h — Passmann" data-desc="Emergency service. Free quote within 24 hours for storm damage, leaks and other incidents." style="display:none"></span>
+  <span data-meta="de" data-title="Notfallservice 24h — Passmann" data-desc="Notfallservice. Kostenloses Angebot innerhalb 24 Stunden fur Sturmschaden, Lecks und andere Schaden." style="display:none"></span>
+  <span data-meta="fr" data-title="Urgences 24h — Passmann" data-desc="Service d urgence. Devis gratuit en 24 heures pour degats de tempete, fuites et autres sinistres." style="display:none"></span>
+  <span data-meta="nl" data-title="Calamiteiten 24u — Passmann" data-desc="Calamiteitenservice. Gratis offerte binnen 24 uur voor stormschade, lekkage en overige schade." style="display:none"></span>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="home.html" class="logo"><span class="logo-name">Passmann</span><span class="logo-sub">Construcciones y Rehabilitaciones</span><span class="logo-accent"></span></a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="home.html"                        data-nav="nav_home"></a>
+      <a href="over.html"                        data-nav="nav_over"></a>
+      <a href="diensten.html"                    data-nav="nav_diensten"></a>
+      <a href="projecten.html"                   data-nav="nav_projecten"></a>
+      <a href="contact.html"                     data-nav="nav_contact"></a>
+      <a href="calamiteiten.html" class="nav-cta active" data-nav="nav_cal"></a>
+    </div>
+    <div class="lang-selector"></div>
+  </div>
+</nav>
+
+<!-- PAGE HEADER - RED -->
+<header style="background:linear-gradient(135deg,#b91c1c,#dc2626);padding:calc(var(--nav-h) + 64px) 0 64px;">
+  <div class="container">
+    <div class="breadcrumb"><a href="home.html" style="color:rgba(255,255,255,.6);">Home</a><span class="sep" style="color:rgba(255,255,255,.4);">/</span><span style="color:#fca5a5;"><span data-lang="es">Emergencias</span><span data-lang="en">Emergencies</span><span data-lang="de">Notfall</span><span data-lang="fr">Urgences</span><span data-lang="nl">Calamiteiten</span></span></div>
+
+    <div data-lang="es">
+      <div class="emergency-badge">Servicio de emergencias &mdash; Presupuesto en 24 horas</div>
+      <h1 style="color:#fff;">Da&ntilde;os en su propiedad?</h1>
+      <p style="color:rgba(255,255,255,.85);font-size:1.1rem;max-width:580px;">Rellene el formulario y nos pondremos en contacto en menos de 24 horas para realizar una inspecci&oacute;n y elaborar un presupuesto gratuito y sin compromiso.</p>
+    </div>
+    <div data-lang="en">
+      <div class="emergency-badge">Emergency service &mdash; Quote within 24 hours</div>
+      <h1 style="color:#fff;">Damage to your property?</h1>
+      <p style="color:rgba(255,255,255,.85);font-size:1.1rem;max-width:580px;">Fill in the form and we will contact you within 24 hours to carry out an inspection and prepare a free, no-obligation quote.</p>
+    </div>
+    <div data-lang="de">
+      <div class="emergency-badge">Notfallservice &mdash; Angebot innerhalb 24 Stunden</div>
+      <h1 style="color:#fff;">Sch&auml;den an Ihrer Immobilie?</h1>
+      <p style="color:rgba(255,255,255,.85);font-size:1.1rem;max-width:580px;">F&uuml;llen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden, um eine Inspektion durchzuf&uuml;hren und ein kostenloses, unverbindliches Angebot zu erstellen.</p>
+    </div>
+    <div data-lang="fr">
+      <div class="emergency-badge">Service d&apos;urgence &mdash; Devis en 24 heures</div>
+      <h1 style="color:#fff;">Des dommages sur votre bien?</h1>
+      <p style="color:rgba(255,255,255,.85);font-size:1.1rem;max-width:580px;">Remplissez le formulaire et nous vous contacterons dans les 24 heures pour effectuer une inspection et &eacute;tablir un devis gratuit et sans engagement.</p>
+    </div>
+    <div data-lang="nl">
+      <div class="emergency-badge">Calamiteitenservice &mdash; Offerte binnen 24 uur</div>
+      <h1 style="color:#fff;">Schade aan uw woning?</h1>
+      <p style="color:rgba(255,255,255,.85);font-size:1.1rem;max-width:580px;">Vul het formulier in en wij nemen binnen 24 uur contact met u op voor een inspectie en een gratis, vrijblijvende offerte.</p>
+    </div>
+  </div>
+</header>
+
+<!-- FORM SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <!-- Left: info -->
+      <div>
+        <div data-lang="es"><h2>Que cubre este servicio?</h2><span class="divider-gold"></span></div>
+        <div data-lang="en"><h2>What does this service cover?</h2><span class="divider-gold"></span></div>
+        <div data-lang="de"><h2>Was deckt dieser Service ab?</h2><span class="divider-gold"></span></div>
+        <div data-lang="fr"><h2>Que couvre ce service?</h2><span class="divider-gold"></span></div>
+        <div data-lang="nl"><h2>Wat dekt deze service?</h2><span class="divider-gold"></span></div>
+
+        <div class="why-list">
+          <div class="why-item">
+            <div class="why-num" style="background:#dc2626;">01</div>
+            <div>
+              <div data-lang="es"><h4>Da&ntilde;os por tormenta</h4><p>Reparaci&oacute;n de tejados, fachadas, ventanas y estructuras da&ntilde;adas por el viento o la lluvia.</p></div>
+              <div data-lang="en"><h4>Storm damage</h4><p>Repair of roofs, facades, windows and structures damaged by wind or rain.</p></div>
+              <div data-lang="de"><h4>Sturmsch&auml;den</h4><p>Reparatur von D&auml;chern, Fassaden, Fenstern und durch Wind oder Regen besch&auml;digten Strukturen.</p></div>
+              <div data-lang="fr"><h4>D&eacute;g&acirc;ts de temp&ecirc;te</h4><p>R&eacute;paration des toits, fa&ccedil;ades, fen&ecirc;tres et structures endommag&eacute;es par le vent ou la pluie.</p></div>
+              <div data-lang="nl"><h4>Stormschade</h4><p>Herstel van daken, gevels, ramen en constructies beschadigd door wind of regen.</p></div>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num" style="background:#dc2626;">02</div>
+            <div>
+              <div data-lang="es"><h4>Goteras y filtraciones</h4><p>Localizamos el origen y aplicamos una soluci&oacute;n definitiva, no parches temporales.</p></div>
+              <div data-lang="en"><h4>Leaks and infiltrations</h4><p>We locate the source and apply a definitive solution &mdash; no temporary patches.</p></div>
+              <div data-lang="de"><h4>Lecks und Infiltrationen</h4><p>Wir lokalisieren die Quelle und bieten eine endg&uuml;ltige L&ouml;sung &mdash; keine tempor&auml;ren Flicken.</p></div>
+              <div data-lang="fr"><h4>Fuites et infiltrations</h4><p>Nous localisons la source et appliquons une solution d&eacute;finitive, pas de r&eacute;parations temporaires.</p></div>
+              <div data-lang="nl"><h4>Lekkage en infiltratie</h4><p>Wij lokaliseren de bron en bieden een definitieve oplossing &mdash; geen tijdelijke lappen.</p></div>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-num" style="background:#dc2626;">03</div>
+            <div>
+              <div data-lang="es"><h4>Otros da&ntilde;os urgentes</h4><p>Cualquier tipo de da&ntilde;o que requiera intervenci&oacute;n r&aacute;pida y profesional.</p></div>
+              <div data-lang="en"><h4>Other urgent damage</h4><p>Any type of damage requiring fast, professional intervention.</p></div>
+              <div data-lang="de"><h4>Sonstige dringende Sch&auml;den</h4><p>Jede Art von Schaden, der schnelles, professionelles Eingreifen erfordert.</p></div>
+              <div data-lang="fr"><h4>Autres dommages urgents</h4><p>Tout type de dommage n&eacute;cessitant une intervention rapide et professionnelle.</p></div>
+              <div data-lang="nl"><h4>Overige urgente schade</h4><p>Elk type schade dat snelle, professionele interventie vereist.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Direct contact -->
+        <div style="background:var(--navy);border-radius:var(--radius-lg);padding:28px;margin-top:32px;">
+          <div data-lang="es"><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin-bottom:12px;">Para emergencias que requieran atenci&oacute;n inmediata:</p></div>
+          <div data-lang="en"><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin-bottom:12px;">For emergencies requiring immediate attention:</p></div>
+          <div data-lang="de"><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin-bottom:12px;">F&uuml;r Notf&auml;lle, die sofortige Aufmerksamkeit erfordern:</p></div>
+          <div data-lang="fr"><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin-bottom:12px;">Pour les urgences n&eacute;cessitant une attention imm&eacute;diate:</p></div>
+          <div data-lang="nl"><p style="color:rgba(255,255,255,.8);font-size:.9rem;margin-bottom:12px;">Voor calamiteiten die directe aandacht vereisen:</p></div>
+          <a href="tel:+34604943812" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1.1rem;">+34 604 943 812</a>
+        </div>
+      </div>
+
+      <!-- Right: form -->
+      <div class="form">
+        <div data-lang="es"><h3 style="margin-bottom:24px;">Reportar da&ntilde;o</h3></div>
+        <div data-lang="en"><h3 style="margin-bottom:24px;">Report damage</h3></div>
+        <div data-lang="de"><h3 style="margin-bottom:24px;">Schaden melden</h3></div>
+        <div data-lang="fr"><h3 style="margin-bottom:24px;">Signaler un dommage</h3></div>
+        <div data-lang="nl"><h3 style="margin-bottom:24px;">Schade melden</h3></div>
+
+        <form data-form="calamiteit" action="#" method="post" enctype="multipart/form-data">
+          <div class="form-row">
+            <div class="form-group">
+              <label><span data-lang="es">Nombre</span><span data-lang="en">Name</span><span data-lang="de">Name</span><span data-lang="fr">Nom</span><span data-lang="nl">Naam</span> *</label>
+              <input type="text" name="name" required/>
+            </div>
+            <div class="form-group">
+              <label><span data-lang="es">Tel&eacute;fono</span><span data-lang="en">Phone</span><span data-lang="de">Telefon</span><span data-lang="fr">T&eacute;l&eacute;phone</span><span data-lang="nl">Telefoon</span> *</label>
+              <input type="tel" name="phone" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" name="email" required/>
+          </div>
+          <div class="form-group">
+            <label><span data-lang="es">Direcci&oacute;n del inmueble</span><span data-lang="en">Property address</span><span data-lang="de">Objektadresse</span><span data-lang="fr">Adresse du bien</span><span data-lang="nl">Adres van het pand</span> *</label>
+            <input type="text" name="address" required/>
+          </div>
+          <div class="form-group">
+            <label><span data-lang="es">Tipo de da&ntilde;o</span><span data-lang="en">Type of damage</span><span data-lang="de">Schadensart</span><span data-lang="fr">Type de dommage</span><span data-lang="nl">Type schade</span> *</label>
+            <select name="damage_type" required>
+              <option value=""></option>
+              <option value="storm"><span data-lang="es">Da&ntilde;os por tormenta</span><span data-lang="en">Storm damage</span><span data-lang="de">Sturmsch&auml;den</span><span data-lang="fr">D&eacute;g&acirc;ts de temp&ecirc;te</span><span data-lang="nl">Stormschade</span></option>
+              <option value="leak"><span data-lang="es">Gotera / Filtraci&oacute;n</span><span data-lang="en">Leak / Infiltration</span><span data-lang="de">Leck / Infiltration</span><span data-lang="fr">Fuite / Infiltration</span><span data-lang="nl">Lekkage / Infiltratie</span></option>
+              <option value="flood"><span data-lang="es">Inundaci&oacute;n</span><span data-lang="en">Flooding</span><span data-lang="de">&Uuml;berschwemmung</span><span data-lang="fr">Inondation</span><span data-lang="nl">Overstroming</span></option>
+              <option value="structural"><span data-lang="es">Da&ntilde;os estructurales</span><span data-lang="en">Structural damage</span><span data-lang="de">Strukturelle Sch&auml;den</span><span data-lang="fr">Dommages structurels</span><span data-lang="nl">Constructieschade</span></option>
+              <option value="other"><span data-lang="es">Otros</span><span data-lang="en">Other</span><span data-lang="de">Sonstige</span><span data-lang="fr">Autres</span><span data-lang="nl">Overige</span></option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label><span data-lang="es">Descripci&oacute;n de los da&ntilde;os</span><span data-lang="en">Description of damage</span><span data-lang="de">Schadensbeschreibung</span><span data-lang="fr">Description des dommages</span><span data-lang="nl">Omschrijving van de schade</span> *</label>
+            <textarea name="description" required style="min-height:110px;"></textarea>
+          </div>
+          <div class="form-group">
+            <label><span data-lang="es">Fotos (opcional)</span><span data-lang="en">Photos (optional)</span><span data-lang="de">Fotos (optional)</span><span data-lang="fr">Photos (facultatif)</span><span data-lang="nl">Foto's (optioneel)</span></label>
+            <div class="file-upload" role="button" tabindex="0">
+              <input type="file" name="photos" multiple accept="image/*"/>
+              <svg width="32" height="32" fill="none" stroke="#9CA3AF" stroke-width="1.5" viewBox="0 0 24 24" style="margin:0 auto 8px;"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+              <div data-lang="es" style="font-size:.9rem;color:var(--text-muted);">Haga clic para subir fotos</div>
+              <div data-lang="en" style="font-size:.9rem;color:var(--text-muted);">Click to upload photos</div>
+              <div data-lang="de" style="font-size:.9rem;color:var(--text-muted);">Klicken Sie, um Fotos hochzuladen</div>
+              <div data-lang="fr" style="font-size:.9rem;color:var(--text-muted);">Cliquez pour t&eacute;l&eacute;charger des photos</div>
+              <div data-lang="nl" style="font-size:.9rem;color:var(--text-muted);">Klik om foto's te uploaden</div>
+              <span class="file-label"></span>
+            </div>
+          </div>
+
+          <!-- 24h badge -->
+          <div style="background:#fef2f2;border:1.5px solid #fecaca;border-radius:10px;padding:14px 18px;margin-bottom:20px;display:flex;align-items:center;gap:12px;">
+            <div style="flex-shrink:0;width:40px;height:40px;background:#dc2626;border-radius:8px;display:flex;align-items:center;justify-content:center;">
+              <svg width="20" height="20" fill="none" stroke="#fff" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <div>
+              <div data-lang="es" style="font-size:.85rem;font-weight:700;color:#dc2626;">Respuesta garantizada en menos de 24 horas</div>
+              <div data-lang="en" style="font-size:.85rem;font-weight:700;color:#dc2626;">Guaranteed response within 24 hours</div>
+              <div data-lang="de" style="font-size:.85rem;font-weight:700;color:#dc2626;">Garantierte Antwort innerhalb von 24 Stunden</div>
+              <div data-lang="fr" style="font-size:.85rem;font-weight:700;color:#dc2626;">R&eacute;ponse garantie en moins de 24 heures</div>
+              <div data-lang="nl" style="font-size:.85rem;font-weight:700;color:#dc2626;">Gegarandeerde reactie binnen 24 uur</div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-red" style="width:100%;justify-content:center;">
+            <span data-lang="es">Enviar reporte de da&ntilde;o</span>
+            <span data-lang="en">Submit damage report</span>
+            <span data-lang="de">Schadensmeldung absenden</span>
+            <span data-lang="fr">Soumettre le rapport de dommage</span>
+            <span data-lang="nl">Schademeldingformulier versturen</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-logo"><div class="logo"><span class="logo-name">Passmann</span><span class="logo-sub">Construcciones y Rehabilitaciones</span><span class="logo-accent"></span></div><p><span data-lang="es">Calidad holandesa, trabajo honesto en la Costa Blanca.</span><span data-lang="en">Dutch quality, honest work on the Costa Blanca.</span><span data-lang="de">Niederl&auml;ndische Qualit&auml;t, ehrliche Arbeit an der Costa Blanca.</span><span data-lang="fr">Qualit&eacute; hollandaise, travail honn&ecirc;te sur la Costa Blanca.</span><span data-lang="nl">Nederlandse kwaliteit, eerlijk werk aan de Costa Blanca.</span></p></div>
+      <div class="footer-col"><h4><span data-lang="es">Servicios</span><span data-lang="en">Services</span><span data-lang="de">Leistungen</span><span data-lang="fr">Services</span><span data-lang="nl">Diensten</span></h4><ul><li><a href="diensten.html"><span data-lang="es">Renovaci&oacute;n</span><span data-lang="en">Renovation</span><span data-lang="de">Renovierung</span><span data-lang="fr">R&eacute;novation</span><span data-lang="nl">Renovatie</span></a></li><li><a href="diensten.html"><span data-lang="es">Obra nueva</span><span data-lang="en">New build</span><span data-lang="de">Neubau</span><span data-lang="fr">Construction neuve</span><span data-lang="nl">Nieuwbouw</span></a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4><span data-lang="es">Empresa</span><span data-lang="en">Company</span><span data-lang="de">Unternehmen</span><span data-lang="fr">Entreprise</span><span data-lang="nl">Bedrijf</span></h4><ul><li><a href="over.html"><span data-lang="es">Sobre nosotros</span><span data-lang="en">About us</span><span data-lang="de">&Uuml;ber uns</span><span data-lang="fr">&Agrave; propos</span><span data-lang="nl">Over ons</span></a></li><li><a href="projecten.html"><span data-lang="es">Proyectos</span><span data-lang="en">Projects</span><span data-lang="de">Projekte</span><span data-lang="fr">Projets</span><span data-lang="nl">Projecten</span></a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><address>P. Passmann<br/>C. Bautista Aznar 25 3F<br/>Sant Vicent del Raspeig<br/><br/><a href="tel:+34604943812" style="color:rgba(255,255,255,.6);">+34 604 943 812</a><br/><a href="mailto:info@passmann.es" style="color:rgba(255,255,255,.6);">info@passmann.es</a></address></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2025 Construcciones y Rehabilitaciones Passmann</span><div class="lang-selector"></div></div>
+  </div>
+</footer>
+<script src="lang.js"></script>
+</body>
+</html>
