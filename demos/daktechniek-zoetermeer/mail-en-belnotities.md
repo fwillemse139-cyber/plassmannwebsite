@@ -42,13 +42,25 @@ Suerte Marketing
 
 Geen interesse? Laat het gerust weten!
 
-## Kort WhatsApp-bericht
+## WhatsApp-bericht (warm en duidelijk)
 
-Goedemiddag, mijn naam is Floris Willemse van Suerte Marketing. Ik heb alvast een voorbeeld gemaakt van een nieuwe website voor F. van den Ende Daktechniek, met uw telefoonnummer direct bovenaan voor klanten met een lekkage: https://daktechniek-zoetermeer-demo.vercel.app
+Goedemiddag meneer Van den Ende,
 
-Volledig vrijblijvend. Mag ik u binnenkort even bellen om te horen wat u ervan vindt?
+Mijn naam is Floris Willemse, van Suerte Marketing. Ik maak websites voor ondernemers uit de regio.
 
-Floris Willemse, Suerte Marketing
+Ik kwam uw website tegen en zag dat u zich echt specialiseert in dakreparatie en lekkages in Zoetermeer. Iemand met een lekkend dak wil u natuurlijk zo snel mogelijk kunnen bellen. Op uw huidige site staat uw nummer alleen helemaal onderaan, en bovenaan staan een paar woorden aan elkaar geschreven.
+
+Daarom heb ik alvast een voorbeeld gemaakt van hoe uw website eruit zou kunnen zien, met uw telefoonnummer direct bovenaan:
+
+https://daktechniek-zoetermeer-demo.vercel.app
+
+Het is volledig vrijblijvend en kost u niets. Ik ben gewoon benieuwd wat u ervan vindt.
+
+Mag ik u later deze week even bellen? Of stuur gerust een berichtje terug als dat beter uitkomt.
+
+Met vriendelijke groet,
+Floris Willemse
+Suerte Marketing
 
 ## Belnotities
 - **Opening:** "Ik heb u een voorbeeld gestuurd van een nieuwe website voor uw dakbedrijf. Heeft u die kunnen bekijken?"
