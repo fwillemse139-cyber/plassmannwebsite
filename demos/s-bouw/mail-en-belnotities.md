@@ -10,9 +10,9 @@
 
 Goedemiddag,
 
-Mijn naam is [Naam]. Ik maak websites voor vakbedrijven in de bouw, zodat ze online net zo sterk overkomen als op de bouwplaats.
+Mijn naam is [Naam]. Ik maak websites voor ondernemers en bedrijven, met als doel dat ze online net zo sterk overkomen als in hun vak.
 
-Ik mail jullie omdat S-Bouw precies zo'n bedrijf is: 15 vaste vakmensen, tot 40 jaar ervaring, en klanten die al voor de tweede generatie terugkomen. Maar wie via een aanbeveling jullie naam hoort, kijkt eerst op de website. Die laat op dit moment nog niet zien hoe goed jullie zijn.
+Ik mail jullie omdat S-Bouw daar een mooi voorbeeld van is: 15 vaste vakmensen, tot 40 jaar ervaring, en klanten die al voor de tweede generatie terugkomen. Maar wie via een aanbeveling jullie naam hoort, kijkt eerst op de website. Die laat op dit moment nog niet zien hoe goed jullie zijn.
 
 **Drie dingen die mij opvielen op s-bouw.com:**
 1. **Bij "Ervaringen van klanten" staat nog de standaard voorbeeldtekst** ("Customer Name"). Dat wordt makkelijk over het hoofd gezien, maar juist jullie tevreden klanten zijn het sterkste bewijs.
