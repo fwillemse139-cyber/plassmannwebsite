@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>S-Bouw | Verbouwen en renoveren in Breda en omgeving</title>
+<meta name="description" content="S-Bouw: 15 vakmensen met tot 40 jaar ervaring. Uitbouw, badkamers, keukens, daken en complete renovaties tussen Rotterdam, Eindhoven en Turnhout.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0b1b33; --navy-2:#13294b; --blue:#0052ff; --blue-d:#0040c7;
+    --sand:#f5f2ec; --line:#e3e6ec; --text:#1d2433; --muted:#5b6475; --white:#fff;
+    --radius:14px; --max:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,system-ui,sans-serif;color:var(--text);background:var(--white);line-height:1.6;font-size:17px}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:"Roboto Condensed",sans-serif;line-height:1.1;letter-spacing:.2px}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:10px;font-weight:600;transition:.2s;cursor:pointer;border:0;font-size:16px}
+  .btn-primary{background:var(--blue);color:#fff}.btn-primary:hover{background:var(--blue-d)}
+  .btn-ghost{border:1.5px solid rgba(255,255,255,.5);color:#fff}.btn-ghost:hover{background:rgba(255,255,255,.1)}
+  .eyebrow{font-size:13px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:var(--blue)}
+
+  /* demo-balk */
+  .demo-bar{background:#fff7d6;color:#5a4a00;font-size:14px;text-align:center;padding:8px 16px}
+  .demo-bar strong{font-weight:600}
+
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .logo{display:flex;align-items:center;gap:10px;font-family:"Roboto Condensed";font-weight:700;font-size:24px;color:var(--navy)}
+  .logo img{height:34px;width:auto}
+  .logo span small{display:block;font-family:Inter;font-weight:500;font-size:11px;color:var(--muted);letter-spacing:.4px}
+  .menu{display:flex;gap:28px;font-weight:500;font-size:15px}
+  .menu a:hover{color:var(--blue)}
+  .nav .btn{padding:10px 16px}
+  @media(max-width:860px){.menu{display:none}}
+
+  /* hero */
+  .hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:0;background:url("https://s-bouw.com/media/photo-2025-09-10-13-47-36.webp") center/cover;opacity:.28}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,var(--navy) 35%,rgba(11,27,51,.55))}
+  .hero .wrap{position:relative;z-index:1;padding:96px 20px 88px;display:grid;grid-template-columns:1.25fr .9fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(40px,6vw,68px);margin:14px 0 18px}
+  .hero p.lead{font-size:19px;color:#c9d3e3;max-width:560px}
+  .hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+  .hero .eyebrow{color:#8fb2ff}
+  .hero-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:var(--radius);padding:26px}
+  .hero-card h3{font-size:22px;margin-bottom:14px}
+  .hero-card ul{list-style:none;display:grid;gap:12px}
+  .hero-card li{display:flex;gap:12px;align-items:flex-start;color:#dbe3f0;font-size:15.5px}
+  .hero-card li svg{flex:none;margin-top:3px}
+  @media(max-width:860px){.hero .wrap{grid-template-columns:1fr;padding:64px 20px}}
+
+  /* trust */
+  .trust{background:var(--sand);border-bottom:1px solid var(--line)}
+  .trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:26px 20px}
+  .trust div{text-align:center}
+  .trust b{display:block;font-family:"Roboto Condensed";font-size:30px;color:var(--navy)}
+  .trust span{font-size:14px;color:var(--muted)}
+  @media(max-width:700px){.trust .wrap{grid-template-columns:repeat(2,1fr)}}
+
+  section{padding:88px 0}
+  .head{max-width:640px;margin-bottom:44px}
+  .head h2{font-size:clamp(32px,4vw,44px);color:var(--navy);margin:10px 0 12px}
+  .head p{color:var(--muted)}
+
+  /* diensten */
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .card{border:1px solid var(--line);border-radius:var(--radius);padding:22px;transition:.2s;background:#fff}
+  .card:hover{border-color:var(--blue);transform:translateY(-3px);box-shadow:0 10px 30px rgba(11,27,51,.08)}
+  .card .ic{width:44px;height:44px;border-radius:10px;background:#eaf0ff;display:grid;place-items:center;margin-bottom:14px}
+  .card h3{font-size:20px;color:var(--navy);margin-bottom:6px}
+  .card p{font-size:15px;color:var(--muted)}
+  @media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.grid{grid-template-columns:1fr}}
+
+  /* projecten */
+  .projects{background:var(--sand)}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:240px;gap:14px}
+  .gallery figure{position:relative;border-radius:var(--radius);overflow:hidden;background:#d9dde4}
+  .gallery figure:first-child{grid-row:span 2}
+  .gallery img{width:100%;height:100%;object-fit:cover;transition:.4s}
+  .gallery figure:hover img{transform:scale(1.04)}
+  .gallery figcaption{position:absolute;left:12px;bottom:12px;background:rgba(11,27,51,.85);color:#fff;font-size:13px;padding:6px 10px;border-radius:8px}
+  @media(max-width:760px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:170px}.gallery figure:first-child{grid-column:span 2}}
+
+  /* werkwijze */
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
+  .step{position:relative;padding-top:56px}
+  .step::before{counter-increment:s;content:counter(s);position:absolute;top:0;left:0;width:42px;height:42px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-family:"Roboto Condensed";font-weight:700;font-size:19px}
+  .step h3{font-size:21px;color:var(--navy);margin-bottom:6px}
+  .step p{font-size:15px;color:var(--muted)}
+  @media(max-width:860px){.steps{grid-template-columns:1fr 1fr}}
+
+  /* over */
+  .about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .about img{border-radius:var(--radius);aspect-ratio:4/3;object-fit:cover;width:100%;background:#d9dde4}
+  .about p{color:var(--muted);margin-bottom:14px}
+  .checks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+  .checks li{display:flex;gap:10px;font-weight:500;font-size:15.5px}
+  @media(max-width:860px){.about .wrap{grid-template-columns:1fr}}
+
+  /* reviews */
+  .reviews{background:var(--navy);color:#fff}
+  .reviews .head h2{color:#fff}.reviews .head p{color:#b9c4d6}
+  .rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .review{background:var(--navy-2);border-radius:var(--radius);padding:24px;border:1px dashed rgba(255,255,255,.25)}
+  .stars{color:#ffc53d;letter-spacing:2px;margin-bottom:10px}
+  .review p{color:#cdd6e4;font-size:15.5px;font-style:italic}
+  .review b{display:block;margin-top:14px;font-size:14px;color:#fff;font-style:normal}
+  @media(max-width:860px){.rgrid{grid-template-columns:1fr}}
+
+  /* contact */
+  .contact .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px}
+  .info{display:grid;gap:14px;margin-top:26px}
+  .info a,.info div{display:flex;gap:14px;align-items:center;padding:16px;border:1px solid var(--line);border-radius:12px;font-weight:500}
+  .info a:hover{border-color:var(--blue)}
+  .info small{display:block;color:var(--muted);font-weight:400;font-size:13px}
+  form{background:var(--sand);border-radius:var(--radius);padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  form .full{grid-column:1/-1}
+  label{font-size:14px;font-weight:600;color:var(--navy);display:grid;gap:6px}
+  input,select,textarea{font:inherit;font-size:15px;padding:12px 14px;border:1px solid #cfd5df;border-radius:10px;background:#fff;width:100%}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--blue);border-color:transparent}
+  .upload{border:1.5px dashed #b5bfcf;border-radius:10px;padding:18px;text-align:center;color:var(--muted);font-size:14px;background:#fff;cursor:pointer}
+  @media(max-width:860px){.contact .wrap{grid-template-columns:1fr}form{grid-template-columns:1fr}}
+
+  footer{background:#071225;color:#8d99ad;font-size:14px;padding:36px 0 90px}
+  footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+
+  /* mobiele belknop */
+  .callbar{display:none}
+  @media(max-width:700px){
+    .callbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;padding:10px;background:#fff;border-top:1px solid var(--line);z-index:60}
+    .callbar .btn{justify-content:center;padding:13px}
+    .nav .btn{display:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo-bar">🔧 <strong>Voorbeeld</strong> van een nieuwe website, speciaal gemaakt voor S-Bouw. Vrijblijvend.</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo">
+      <img src="https://s-bouw.com/media/helm-427x70.webp" alt="" onerror="this.remove()">
+      <span>S-Bouw<small>SAMENWERKENDE BOUW</small></span>
+    </a>
+    <nav class="menu">
+      <a href="#diensten">Diensten</a>
+      <a href="#projecten">Projecten</a>
+      <a href="#werkwijze">Werkwijze</a>
+      <a href="#over">Over ons</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="#contact">Vraag een bezoek aan</a>
+  </div>
+</header>
+
+<section class="hero" style="padding:0">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Breda · Brabant · Zeeland · België</span>
+      <h1>Verbouwen en renoveren, van begin tot oplevering.</h1>
+      <p class="lead">Uitbouw, badkamer, keuken, dak of een complete woning: één vast team van ervaren vakmensen dat continu met u overlegt.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="#contact">Plan een gratis bezoek →</a>
+        <a class="btn btn-ghost" href="tel:+31612463009">📞 06 12 46 30 09</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Waarom klanten terugkomen</h3>
+      <ul>
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8fb2ff" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Eén aanspreekpunt, één team voor alle disciplines</li>
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8fb2ff" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Gemiddeld 20+ jaar ervaring per vakman</li>
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8fb2ff" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Eerlijke prijzen, heldere afspraken</li>
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8fb2ff" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Vergunning nodig? Dat regelen wij ook</li>
+        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8fb2ff" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Zelf meeklussen kan, onder onze begeleiding</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="trust">
+  <div class="wrap">
+    <div><b>15</b><span>vaste vakmensen</span></div>
+    <div><b>tot 40 jaar</b><span>ervaring in de bouw</span></div>
+    <div><b>NL + BE</b><span>Rotterdam tot Turnhout</span></div>
+    <div><b>2e generatie</b><span>klanten komen via aanbeveling</span></div>
+  </div>
+</div>
+
+<section id="diensten">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Diensten</span>
+      <h2>Alles onder één dak</h2>
+      <p>Geen losse aannemers die op elkaar wachten. Wij stemmen alle werkzaamheden op elkaar af, van de eerste sloophamer tot de schoonmaak na oplevering.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="M3 21V10l9-7 9 7v11"/><path d="M14 21v-6h7"/></svg></div><h3>Uitbouw</h3><p>Meer ruimte met grote raampartijen, met of zonder vergunning (die regelen wij).</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="M4 12h16v3a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M6 12V5a2 2 0 0 1 4 0"/></svg></div><h3>Badkamers</h3><p>Uw droombadkamer, gebouwd naar het ontwerp van uw badkamerleverancier.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg></div><h3>Keukens</h3><p>Leidingen verplaatsen, kasten bouwen en plaatsen, bladen vervangen.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="m2 12 10-8 10 8"/><path d="M5 10v10h14V10"/></svg></div><h3>Dakwerken</h3><p>Platte daken en pannendaken renoveren, inclusief isolatie.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="M3 20h18M5 20V8h14v12"/><path d="M9 8V4h6v4"/></svg></div><h3>Wanden &amp; plafonds</h3><p>Constructieve doorbraken, stucwerk en latexwerk.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="M3 17h18M3 21h18M6 17V9l6-4 6 4v8"/></svg></div><h3>Vloeren</h3><p>Houten vloeren renoveren met isolatie, of lichtgewicht beton met vloerverwarming.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div><h3>Elektra</h3><p>Nieuwe bekabeling, meterkast vernieuwen, leidingen infrezen, lichtpunten.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="m14 4 6 6-10 10H4v-6z"/></svg></div><h3>Timmerwerk</h3><p>Alle houtwerk, van carports tot kasten op maat.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><h3>Onderhoud</h3><p>Houtrotherstel, schilderwerk en kunststof kozijnen.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="M7 21h10M12 21V11"/><path d="M12 11c-4 0-6-3-6-7 4 0 6 3 6 7zM12 11c4 0 6-3 6-7-4 0-6 3-6 7z"/></svg></div><h3>Tuinen</h3><p>Ontwerp, aanleg en onderhoud, of hulp bij het onderhoud.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="M6 3h12v6a6 6 0 0 1-12 0z"/><path d="M12 15v6M8 21h8"/></svg></div><h3>Toiletrenovatie</h3><p>Een modern toilet naar uw eigen ontwerp.</p></div>
+      <div class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0052ff" stroke-width="2"><path d="m12 3 2.5 5 5.5.8-4 3.9.9 5.5L12 15.7 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/></svg></div><h3>Eindschoonmaak</h3><p>Grote schoonmaak na de verbouwing, zodat u direct kunt wonen.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projecten" class="projects">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Projecten</span>
+      <h2>Recent opgeleverd</h2>
+      <p>Een greep uit ons werk in Breda en omgeving.</p>
+    </div>
+    <div class="gallery">
+      <figure><img src="https://s-bouw.com/media/photo-2025-09-10-13-47-17.webp" alt="Project S-Bouw" loading="lazy"><figcaption>Renovatie woonhuis</figcaption></figure>
+      <figure><img src="https://s-bouw.com/media/photo-2025-09-10-13-47-20.webp" alt="Project S-Bouw" loading="lazy"><figcaption>Verbouwing</figcaption></figure>
+      <figure><img src="https://s-bouw.com/media/photo-2025-09-10-13-47-22.webp" alt="Project S-Bouw" loading="lazy"><figcaption>Afwerking</figcaption></figure>
+      <figure><img src="https://s-bouw.com/media/photo-2025-09-10-13-47-24.webp" alt="Project S-Bouw" loading="lazy"><figcaption>Interieur</figcaption></figure>
+      <figure><img src="https://s-bouw.com/media/photo-2025-09-10-13-47-39.webp" alt="Project S-Bouw" loading="lazy"><figcaption>Oplevering</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="werkwijze">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Werkwijze</span>
+      <h2>Zo gaan we te werk</h2>
+      <p>Duidelijk vanaf het eerste contact. U weet altijd waar u aan toe bent.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Aanvraag</h3><p>Vertel ons uw wensen via het formulier of telefonisch. Stuur gerust foto's mee.</p></div>
+      <div class="step"><h3>Bezoek op locatie</h3><p>We komen langs, bekijken de situatie en denken met u mee.</p></div>
+      <div class="step"><h3>Heldere offerte</h3><p>Een eerlijke prijs en planning, zonder verrassingen achteraf.</p></div>
+      <div class="step"><h3>Uitvoering</h3><p>Eén team, continu overleg, en een schone oplevering.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="over" class="about" style="background:var(--sand)">
+  <div class="wrap">
+    <img src="https://s-bouw.com/media/photo-2025-09-10-13-47-36.webp" alt="Team S-Bouw aan het werk" loading="lazy">
+    <div>
+      <span class="eyebrow">Over S-Bouw</span>
+      <h2 style="font-size:clamp(30px,4vw,42px);color:var(--navy);margin:10px 0 16px">Samenwerkende Bouw uit Breda</h2>
+      <p>We zijn een vaste groep van 15 zelfstandige vakmensen, Nederlands en Pools. Per klus stellen we het team samen dat precies past bij uw project.</p>
+      <p>Sommigen van ons hebben 40 jaar ervaring. Die geven we door aan een jonger team, en aan klanten die zelf willen meeklussen. De meeste klanten komen via andere klanten bij ons. Inmiddels werken we al voor de tweede generatie.</p>
+      <ul class="checks">
+        <li>✔ Snel en efficiënt, minimale overlast</li>
+        <li>✔ Eerlijk en transparant</li>
+        <li>✔ Vergunningen geregeld</li>
+        <li>✔ Nederland én België</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow" style="color:#8fb2ff">Ervaringen</span>
+      <h2>Wat klanten zeggen</h2>
+      <p>De meeste klanten vinden u via aanbevelingen. Hier laten we die ervaringen ook online zien, bijvoorbeeld uw Google-reviews.</p>
+    </div>
+    <div class="rgrid">
+      <div class="review"><div class="stars">★★★★★</div><p>Plek voor een ervaring van een klant, bijvoorbeeld over een uitbouw of badkamer.</p><b>Naam klant · plaats</b></div>
+      <div class="review"><div class="stars">★★★★★</div><p>Plek voor een ervaring van een tweede-generatieklant.</p><b>Naam klant · plaats</b></div>
+      <div class="review"><div class="stars">★★★★★</div><p>Plek voor een ervaring van een klant die zelf meekluste.</p><b>Naam klant · plaats</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Contact</span>
+      <h2 style="font-size:clamp(32px,4vw,44px);color:var(--navy);margin:10px 0 12px">Plan een vrijblijvend bezoek</h2>
+      <p style="color:var(--muted)">Vertel kort wat u wilt laten doen. We nemen binnen één werkdag contact op om een afspraak op locatie te plannen.</p>
+      <div class="info">
+        <a href="tel:+31612463009"><span style="font-size:22px">📞</span><span>06 12 46 30 09<small>Bel of app ons direct</small></span></a>
+        <a href="mailto:info@s-bouw.com"><span style="font-size:22px">✉️</span><span>info@s-bouw.com<small>Reactie binnen één werkdag</small></span></a>
+        <div><span style="font-size:22px">📍</span><span>Breda<small>Werkgebied: Rotterdam – Eindhoven – Turnhout</small></span></div>
+      </div>
+    </div>
+    <form onsubmit="event.preventDefault();this.querySelector('button').textContent='✔ Verstuurd (demo)'">
+      <label>Naam<input required placeholder="Uw naam"></label>
+      <label>Telefoon<input type="tel" placeholder="06 …"></label>
+      <label>E-mail<input type="email" required placeholder="naam@voorbeeld.nl"></label>
+      <label>Plaats<input placeholder="Bijv. Breda"></label>
+      <label class="full">Soort klus
+        <select>
+          <option>Kies een klus…</option><option>Uitbouw</option><option>Badkamer of toilet</option><option>Keuken</option><option>Dakwerk</option><option>Complete renovatie</option><option>Onderhoud</option><option>Anders</option>
+        </select>
+      </label>
+      <label class="full">Uw wensen<textarea rows="4" placeholder="Beschrijf kort wat u wilt laten doen"></textarea></label>
+      <label class="full upload">📷 Foto's toevoegen (optioneel). Dan kunnen we sneller een inschatting maken.<input type="file" multiple accept="image/*" style="display:none"></label>
+      <button class="btn btn-primary full" style="justify-content:center">Verstuur aanvraag →</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© S-Bouw · Samenwerkende Bouw · Breda</span>
+    <span>info@s-bouw.com · 06 12 46 30 09</span>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-primary" href="tel:+31612463009">📞 Bellen</a>
+  <a class="btn" style="background:var(--navy);color:#fff" href="#contact">Aanvraag</a>
+</div>
+
+</body>
+</html>
