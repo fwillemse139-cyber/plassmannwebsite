@@ -6,7 +6,7 @@ De cloud-sessie kon niet naar GitHub pushen. Al het werk zit in `klantacquisitie
 ```bash
 git clone https://github.com/fwillemse139-cyber/plassmannwebsite.git
 cd plassmannwebsite
-git checkout -b claude/klantacquisitie-website-verkoop-fq7nj8 b187f8a
+git checkout claude/klantacquisitie-website-verkoop-fq7nj8
 git am /pad/naar/klantacquisitie.patch
 git push -u origin claude/klantacquisitie-website-verkoop-fq7nj8
 ```
