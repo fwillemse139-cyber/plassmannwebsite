@@ -18,13 +18,13 @@ Daarom heb ik alvast een voorbeeld gemaakt van hoe jullie homepage eruit zou kun
 
 Het is gebaseerd op jullie eigen diensten en uitstraling. Het voorbeeld is vrijblijvend en kost niets.
 
-Ik bel jullie [dag] even om te horen wat jullie ervan vinden. Bellen jullie liever zelf? Dat kan op [telefoonnummer].
+Ik bel jullie [dag] even om te horen wat jullie ervan vinden. Bellen jullie liever zelf? Dat kan op +31 6 24 57 55 30.
 
 Met vriendelijke groet,
 
 [Naam]
 [Bedrijfsnaam / functie]
-[Telefoon] · [Website/portfolio]
++31 6 24 57 55 30 · [Website/portfolio]
 
 *Geen interesse? Laat het weten, dan hoor je niets meer van mij.*
 
@@ -38,7 +38,7 @@ Beste [Voornaam],
 
 Ik heb een paar keer geprobeerd te bellen, maar ik snap dat jullie op de bouw staan. Het voorbeeld staat nog steeds online: **[demo-link]**
 
-Vindt u het interessant? Stuur dan gerust een appje naar [nummer] met een moment dat schikt. Dan bel ik u kort terug, in 10 minuten bent u bijgepraat.
+Vindt u het interessant? Stuur dan gerust een appje naar +31 6 24 57 55 30 met een moment dat schikt. Dan bel ik u kort terug, in 10 minuten bent u bijgepraat.
 
 Groet,
 [Naam]
