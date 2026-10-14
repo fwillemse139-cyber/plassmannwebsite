@@ -1,8 +1,8 @@
 # Mail 1 – demo-link (dag 0)
 
-**Onderwerp:** 3 verbeterpunten voor [website] (+ een gratis voorbeeld)
+**Onderwerp:** Uw nieuwe website, alvast voor u gemaakt (of: Jullie nieuwe website, alvast voor jullie gemaakt)
 
-> Opties om te A/B-testen: "Ik heb jullie website alvast vernieuwd" / "[Bedrijfsnaam] – voorbeeld nieuwe site"
+> Alternatieven: "Een voorbeeld van een nieuwe website voor [Bedrijfsnaam]" / "[Bedrijfsnaam]: zo kan uw nieuwe website eruitzien". Noem geen "verbeterpunten" in het onderwerp: dan lijkt het om kleine aanpassingen te gaan in plaats van een nieuwe website.
 
 ---
 

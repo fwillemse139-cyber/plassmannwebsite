@@ -6,7 +6,7 @@
 
 ## Mail
 
-**Onderwerp:** 3 verbeterpunten voor bouwservice-eves.nl (+ een gratis voorbeeld)
+**Onderwerp:** Uw nieuwe website, alvast voor u gemaakt
 
 Goedemiddag,
 
