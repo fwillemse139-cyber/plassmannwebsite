@@ -1,8 +1,9 @@
 # Mail 1 – demo-link (dag 0)
 
-**Onderwerp:** Uw nieuwe website, alvast voor u gemaakt (of: Jullie nieuwe website, alvast voor jullie gemaakt)
+**Onderwerp:** [Bedrijfsnaam], ik heb uw website alvast vernieuwd (of: ...jullie website...)
 
-> Alternatieven: "Een voorbeeld van een nieuwe website voor [Bedrijfsnaam]" / "[Bedrijfsnaam]: zo kan uw nieuwe website eruitzien". Noem geen "verbeterpunten" in het onderwerp: dan lijkt het om kleine aanpassingen te gaan in plaats van een nieuwe website.
+> Test-alternatief: "Kijk eens wat ik voor [Bedrijfsnaam] heb gemaakt". Houd in Notion bij welke vaker reactie oplevert.
+> Niet gebruiken: "verbeterpunten" (klinkt als kleine aanpassingen), "probleem" of "dringend" (klinkt als oplichting), "GRATIS!!!" (spamfilter), "uw website staat online" (verwarrend).
 
 ---
 

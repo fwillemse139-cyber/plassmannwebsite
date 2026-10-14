@@ -6,7 +6,7 @@
 
 ## Mail
 
-**Onderwerp:** Uw nieuwe website, alvast voor u gemaakt
+**Onderwerp:** Bouwservice Eves, ik heb uw website alvast vernieuwd
 
 Goedemiddag,
 
