@@ -21,7 +21,7 @@ Ik mail u omdat JR Timmerfabriek bijzonder werk maakt: deuren en kozijnen voor d
 Drie dingen die mij opvielen op jr-timmerfabriek.nl:
 
 1. In de grote kop op de homepage staat "JR Timmerfabiek", zonder de r.
-2. Onderaan elke pagina staat de melding "fout: Content is protected !!", wat voor een bezoeker op een foutmelding lijkt.
+2. Kopiëren en rechtsklikken is op de site geblokkeerd. Wie uw telefoonnummer of e-mailadres wil kopiëren, krijgt de melding "Content is protected !!".
 3. Uw bijzondere projecten zitten verstopt in een submenu, als losse fotopagina's zonder uitleg.
 
 Daarom heb ik alvast een voorbeeld gemaakt van hoe uw website eruit zou kunnen zien, met uw eigen producten, projecten en foto's uit de werkplaats:
@@ -44,8 +44,8 @@ Geen interesse? Laat het gerust weten!
 - **Bellen:** 070 404 23 41 (ma t/m vr 08:00–16:30), vraag naar Willem Harteveld. Bel vrijdag vóór 16:30, want daarna sluiten ze.
 - **Opening:** "Ik heb u een voorbeeld gestuurd van een nieuwe website voor JR Timmerfabriek. Heeft u die kunnen bekijken?"
 - **Compliment:** Koninklijke Stallen, Paleis Noordeinde, het Torentje, eiken kerkdeuren. Eigen werkplaats sinds 2007.
-- **Observatie:** typfout "Timmerfabiek" in de kop, "fout: Content is protected !!" onder elke pagina, projecten verstopt zonder tekst.
+- **Observatie:** typfout "Timmerfabiek" in de kop, kopiëren geblokkeerd (ook telefoonnummer en e-mail), projecten verstopt zonder tekst.
 - **Kans:** aannemers en architecten checken de site voordat ze een timmerfabriek inschakelen. Monumentale referenties zijn hun sterkste verkoopargument; die moeten vooraan staan.
 - **Vraag:** "Werkt u alleen voor aannemers, of wilt u ook meer particulieren met een monumentaal pand bereiken?"
 - **Na een ja:** een paar zinnen per bijzonder project, foto's van eindresultaten (nu vooral werkplaatsfoto's), 3–5 aannemers voor een review.
-- **Let op:** de "Content is protected"-melding komt van een kopieerbeveiligingsplugin. Dat kan ik in de nieuwe site gewoon weglaten.
+- **Let op:** de kopieerblokkade komt van een beveiligingsplugin (WP Content Copy Protection). De melding is alleen zichtbaar als iemand iets probeert te kopiëren. In de nieuwe site laten we die weg.
