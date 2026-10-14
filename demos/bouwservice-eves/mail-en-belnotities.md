@@ -24,7 +24,7 @@ Daarom heb ik alvast een voorbeeld gemaakt van hoe uw website eruit zou kunnen z
 
 https://bouwservice-eves-demo.vercel.app
 
-Het is volledig vrijblijvend en het voorbeeld kost niets. Ter referentie: ik maakte onder andere de website van Plassmann, een bouw- en renovatiebedrijf aan de Costa Blanca.
+Het is volledig vrijblijvend en het voorbeeld kost niets.
 
 Ik bel u vrijdag even om te horen wat u ervan vindt. Liever zelf bellen of appen? Dat kan op +31 6 24 57 55 30.
 
@@ -33,7 +33,7 @@ Floris Willemse
 Suerte Marketing
 +31 6 24 57 55 30
 
-Geen interesse? Laat het gerust weten, dan hoort u niets meer van mij.
+Geen interesse? Laat het gerust weten!
 
 ## Belnotities
 

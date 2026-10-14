@@ -41,7 +41,7 @@ Doel: **zo snel mogelijk live**, want een snelle oplevering is je beste referent
 - [ ] **Review vragen** (Google) en toestemming om de site als referentie te gebruiken
 - [ ] Onderhoudsabonnement aanbieden
 - [ ] **Referral vragen:** "Kent u nog een collega-vakman die dit ook kan gebruiken?"
-- [ ] Toevoegen aan je eigen portfolio. Plassmann (Costa Blanca, NL/EN/ES) is referentie nr. 1.
+- [ ] Toevoegen aan je eigen portfolio (niet noemen in acquisitiemails)
 
 ## Lanceer-checklist (20 punten)
 

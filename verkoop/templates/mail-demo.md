@@ -22,7 +22,7 @@ Daarom heb ik alvast een voorbeeld gemaakt van hoe [uw/jullie] website eruit zou
 
 [demo-link]
 
-Het is volledig vrijblijvend en het voorbeeld kost niets. Ter referentie: ik maakte onder andere de website van Plassmann, een bouw- en renovatiebedrijf aan de Costa Blanca.
+Het is volledig vrijblijvend en het voorbeeld kost niets.
 
 Ik bel [u/jullie] [dag] even om te horen wat [u/jullie] ervan [vindt/vinden]. Liever zelf bellen of appen? Dat kan op +31 6 24 57 55 30.
 
@@ -32,7 +32,7 @@ Floris Willemse
 Suerte Marketing
 +31 6 24 57 55 30
 
-Geen interesse? Laat het gerust weten, dan [hoort u/hoor je] niets meer van mij.
+Geen interesse? Laat het gerust weten!
 
 ---
 
@@ -58,3 +58,8 @@ Suerte Marketing
 - Zet de demo-link hoog in de mail en laat hem duidelijk opvallen.
 - Personaliseer de eerste twee zinnen écht. De rest mag standaard blijven.
 - Verstuur rond 12:00 of na 19:00.
+
+## Vaste regels
+- Geen eerdere klanten of referenties noemen in de mail.
+- Geen emoji's.
+- Afsluiten met: "Geen interesse? Laat het gerust weten!"

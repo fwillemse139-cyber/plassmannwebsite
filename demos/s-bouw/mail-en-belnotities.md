@@ -23,7 +23,7 @@ Daarom heb ik alvast een voorbeeld gemaakt van hoe jullie website eruit zou kunn
 
 **https://s-bouw-demo.vercel.app**
 
-Het is volledig vrijblijvend en het voorbeeld kost niets. Ter referentie: ik maakte onder andere de website van Plassmann, een bouw- en renovatiebedrijf aan de Costa Blanca.
+Het is volledig vrijblijvend en het voorbeeld kost niets.
 
 Ik bel jullie [dag] even om te horen wat jullie ervan vinden. Liever zelf bellen of appen? Dat kan op +31 6 24 57 55 30.
 
@@ -32,7 +32,7 @@ Floris Willemse
 Suerte Marketing
 +31 6 24 57 55 30
 
-*Geen interesse? Laat het gerust weten, dan hoor je niets meer van mij.*
+*Geen interesse? Laat het gerust weten!*
 
 ## Belnotities
 
@@ -50,4 +50,3 @@ Suerte Marketing
 - [ ] De drie lege reviewvakken in de demo blijven bewust leeg. Vul geen verzonnen reviews in.
 - [x] Telefoonnummer ingevuld (+31 6 24 57 55 30)
 - [ ] Je naam en de beldag invullen
-- [ ] Controleren dat Plassmann als referentie genoemd mag worden
