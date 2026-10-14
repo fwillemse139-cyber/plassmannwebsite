@@ -36,5 +36,5 @@ Zet daarna dezelfde connectors aan in claude.ai (Notion, Composio met Vercel, Fi
 - Na publiceren een screenshot bekijken voordat de mail eruit gaat.
 
 ## Stand van zaken (14-10-2026)
-Gemaild, bellen vrijdag 16-10 tussen 16:00 en 17:30: S-Bouw, Bouwservice Eves, Arie, FLM Klusbedrijf, Daktechniek Zoetermeer, Proto Tegelzetbedrijf, Van der Meijde, Allroundbouw, Van Drunen, JR Timmerfabriek (voor 16:30!), Khenech, Klusbedrijf Pijnacker, Maurice Bosman.
+Gemaild, bellen vrijdag 16-10 tussen 16:00 en 17:30: S-Bouw, Bouwservice Eves, Arie, FLM Klusbedrijf, Daktechniek Zoetermeer, Proto Tegelzetbedrijf, Van der Meijde, Allroundbouw, Van Drunen, JR Timmerfabriek (voor 16:30!), Khenech, Klusbedrijf Pijnacker, Maurice Bosman, Ch. Smit & Zoon (demo klaar, nog mailen).
 Reserve: Glashandel Berserik, Den Haag (glas-in-lood atelier; op hun site staat een placehold.it-afbeelding bij een review).
