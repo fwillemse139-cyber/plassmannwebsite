@@ -11,7 +11,7 @@
 | Projecten/portfolio | 6 foto's | projectpagina | projectpagina's per dienst |
 | Offerteformulier | basis | met foto-upload | met foto-upload + type klus |
 | Lokale SEO (Google) | basis | + Google Bedrijfsprofiel | + pagina per regio/dienst |
-| Meertalig | – | – | ✔ (zoals Plassmann: NL/EN/ES) |
+| Meertalig | – | – | Ja (zoals Plassmann: NL/EN/ES) |
 | Oplevering | 3 werkdagen | 5 werkdagen | 10 werkdagen |
 
 **Optioneel abonnement:** hosting, onderhoud en kleine wijzigingen voor € 25–35 per maand. Dit levert terugkerende omzet op. Bied het altijd aan.

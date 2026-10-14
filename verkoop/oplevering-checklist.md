@@ -42,3 +42,31 @@ Doel: **zo snel mogelijk live**, want een snelle oplevering is je beste referent
 - [ ] Onderhoudsabonnement aanbieden
 - [ ] **Referral vragen:** "Kent u nog een collega-vakman die dit ook kan gebruiken?"
 - [ ] Toevoegen aan je eigen portfolio. Plassmann (Costa Blanca, NL/EN/ES) is referentie nr. 1.
+
+## Lanceer-checklist (20 punten)
+
+Huisstijlregel voor alles wat we maken: **geen emoji's**, zakelijk en professioneel. Iconen alleen als nette SVG.
+
+### Al in elke demo
+- [ ] Duidelijke call-to-action (bel- en aanvraagknop, vaste belbalk op mobiel)
+- [ ] Mobiele versie getest
+- [ ] Meta title en meta description
+- [ ] Social-share-tags (og:title, og:description, og:image)
+- [ ] Favicon
+- [ ] Alt-teksten bij foto's
+- [ ] `noindex`, want de demo mag niet in Google komen
+
+### Bij de echte oplevering
+- [ ] **Privacyverklaring:** verplicht (AVG) zodra het formulier persoonsgegevens verzamelt
+- [ ] **Cookiemelding:** alleen nodig bij tracking- of marketingcookies. Gebruik cookieloze analytics (bijv. Vercel Analytics of Plausible), dan is een banner niet nodig
+- [ ] **Algemene voorwaarden:** alleen als de klant ze heeft. Link ernaar, schrijf ze niet zelf
+- [ ] **FAQ:** 5–8 echte vragen van hun klanten (kosten, doorlooptijd, vergunning, garantie)
+- [ ] `noindex` **verwijderen**
+- [ ] `robots.txt` en `sitemap.xml`
+- [ ] Canonical URL per pagina
+- [ ] Eigen 404-pagina met een link naar home en het telefoonnummer
+- [ ] Analytics (cookieloos)
+- [ ] Formulier testen: komt de aanvraag aan in de mailbox van de klant?
+- [ ] Alle links testen (tel:, mailto:, menu, knoppen)
+- [ ] Toegankelijkheid: contrast, toetsenbordnavigatie, labels bij formuliervelden
+- [ ] Snelheid: foto's comprimeren (WebP, < 300 KB), lazy loading, testen met PageSpeed Insights (doel: 90+ op mobiel)

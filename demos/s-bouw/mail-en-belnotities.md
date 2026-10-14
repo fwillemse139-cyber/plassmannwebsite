@@ -21,7 +21,7 @@ Ik mail jullie omdat S-Bouw daar een mooi voorbeeld van is: 15 vaste vakmensen, 
 
 Daarom heb ik alvast een voorbeeld gemaakt van hoe jullie website eruit zou kunnen zien, met jullie eigen diensten, foto's en werkgebied:
 
-👉 **https://s-bouw-demo.vercel.app**
+**https://s-bouw-demo.vercel.app**
 
 Het is volledig vrijblijvend en het voorbeeld kost niets. Ter referentie: ik maakte onder andere de website van Plassmann, een bouw- en renovatiebedrijf aan de Costa Blanca.
 

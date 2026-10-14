@@ -14,7 +14,7 @@ Wat mij opviel: [één feitelijke observatie uit de callhoek, bijvoorbeeld: "op 
 
 Daarom heb ik alvast een voorbeeld gemaakt van hoe jullie homepage eruit zou kunnen zien:
 
-👉 **[demo-link]**
+**[demo-link]**
 
 Het is gebaseerd op jullie eigen diensten en uitstraling. Het voorbeeld is vrijblijvend en kost niets.
 
