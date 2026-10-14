@@ -1,32 +1,38 @@
 # Mail 1 – demo-link (dag 0)
 
-**Onderwerp:** Nieuwe website voor [Bedrijfsnaam] – alvast gemaakt
+**Onderwerp:** 3 verbeterpunten voor [website] (+ een gratis voorbeeld)
 
 > Opties om te A/B-testen: "Ik heb jullie website alvast vernieuwd" / "[Bedrijfsnaam] – voorbeeld nieuwe site"
 
 ---
 
-Beste [Voornaam / team van Bedrijfsnaam],
+Goedemiddag,
 
-Ik kwam jullie bedrijf tegen toen ik zocht naar [dienst] in [plaats]. [Concreet sterk punt, bijvoorbeeld: "Jullie 25 jaar ervaring en het feit dat klanten één vast aanspreekpunt hebben, vallen echt op."]
+Mijn naam is Floris Willemse, van Suerte Marketing. Ik maak websites voor ondernemers en bedrijven, met als doel dat ze online net zo sterk overkomen als in hun vak.
 
-Wat mij opviel: [één feitelijke observatie uit de callhoek, bijvoorbeeld: "op de huidige site zie je nog geen projecten of reviews, terwijl klanten bij een verbouwing juist dát willen zien voordat ze bellen."]
+Ik mail [u/jullie] omdat [Bedrijfsnaam] daar een mooi voorbeeld van is: [2–3 concrete sterke punten, bijv. jaren ervaring, specialisme, vast team]. Maar [wie via een aanbeveling of Google bij jullie komt, kijkt eerst op de website. Die laat nu nog niet zien hoe goed jullie zijn.]
 
-Daarom heb ik alvast een voorbeeld gemaakt van hoe jullie homepage eruit zou kunnen zien:
+Drie dingen die mij opvielen op [website]:
 
-**[demo-link]**
+1. [Feitelijke observatie 1, positief geformuleerd]
+2. [Feitelijke observatie 2]
+3. [Feitelijke observatie 3]
 
-Het is gebaseerd op jullie eigen diensten en uitstraling. Het voorbeeld is vrijblijvend en kost niets.
+Daarom heb ik alvast een voorbeeld gemaakt van hoe [uw/jullie] website eruit zou kunnen zien, met [uw/jullie] eigen diensten, foto's en werkgebied:
 
-Ik bel jullie [dag] even om te horen wat jullie ervan vinden. Bellen jullie liever zelf? Dat kan op +31 6 24 57 55 30.
+[demo-link]
+
+Het is volledig vrijblijvend en het voorbeeld kost niets. Ter referentie: ik maakte onder andere de website van Plassmann, een bouw- en renovatiebedrijf aan de Costa Blanca.
+
+Ik bel [u/jullie] [dag] even om te horen wat [u/jullie] ervan [vindt/vinden]. Liever zelf bellen of appen? Dat kan op +31 6 24 57 55 30.
 
 Met vriendelijke groet,
 
-[Naam]
-[Bedrijfsnaam / functie]
-+31 6 24 57 55 30 · [Website/portfolio]
+Floris Willemse
+Suerte Marketing
++31 6 24 57 55 30
 
-*Geen interesse? Laat het weten, dan hoor je niets meer van mij.*
+Geen interesse? Laat het gerust weten, dan [hoort u/hoor je] niets meer van mij.
 
 ---
 
@@ -41,7 +47,8 @@ Ik heb een paar keer geprobeerd te bellen, maar ik snap dat jullie op de bouw st
 Vindt u het interessant? Stuur dan gerust een appje naar +31 6 24 57 55 30 met een moment dat schikt. Dan bel ik u kort terug, in 10 minuten bent u bijgepraat.
 
 Groet,
-[Naam]
+Floris Willemse
+Suerte Marketing
 
 ---
 

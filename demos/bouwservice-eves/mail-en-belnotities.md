@@ -10,7 +10,7 @@
 
 Goedemiddag,
 
-Mijn naam is [Naam]. Ik maak websites voor ondernemers en bedrijven, met als doel dat ze online net zo sterk overkomen als in hun vak.
+Mijn naam is Floris Willemse, van Suerte Marketing. Ik maak websites voor ondernemers en bedrijven, met als doel dat ze online net zo sterk overkomen als in hun vak.
 
 Ik mail u omdat Bouwservice Eves daar een mooi voorbeeld van is: ruim 25 jaar ervaring, één vast aanspreekpunt, en echt vakwerk, zoals de vervangen ramen bij het monumentale pand. Maar dat sterke werk staat op de huidige website helemaal onderaan, terwijl een bezoeker binnen een paar seconden beslist of hij belt.
 
@@ -29,7 +29,8 @@ Het is volledig vrijblijvend en het voorbeeld kost niets. Ter referentie: ik maa
 Ik bel u vrijdag even om te horen wat u ervan vindt. Liever zelf bellen of appen? Dat kan op +31 6 24 57 55 30.
 
 Met vriendelijke groet,
-[Naam]
+Floris Willemse
+Suerte Marketing
 +31 6 24 57 55 30
 
 Geen interesse? Laat het gerust weten, dan hoort u niets meer van mij.

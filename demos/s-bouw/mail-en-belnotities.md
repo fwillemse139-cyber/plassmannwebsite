@@ -10,7 +10,7 @@
 
 Goedemiddag,
 
-Mijn naam is [Naam]. Ik maak websites voor ondernemers en bedrijven, met als doel dat ze online net zo sterk overkomen als in hun vak.
+Mijn naam is Floris Willemse, van Suerte Marketing. Ik maak websites voor ondernemers en bedrijven, met als doel dat ze online net zo sterk overkomen als in hun vak.
 
 Ik mail jullie omdat S-Bouw daar een mooi voorbeeld van is: 15 vaste vakmensen, tot 40 jaar ervaring, en klanten die al voor de tweede generatie terugkomen. Maar wie via een aanbeveling jullie naam hoort, kijkt eerst op de website. Die laat op dit moment nog niet zien hoe goed jullie zijn.
 
@@ -28,7 +28,8 @@ Het is volledig vrijblijvend en het voorbeeld kost niets. Ter referentie: ik maa
 Ik bel jullie [dag] even om te horen wat jullie ervan vinden. Liever zelf bellen of appen? Dat kan op +31 6 24 57 55 30.
 
 Met vriendelijke groet,
-[Naam]
+Floris Willemse
+Suerte Marketing
 +31 6 24 57 55 30
 
 *Geen interesse? Laat het gerust weten, dan hoor je niets meer van mij.*
