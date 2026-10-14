@@ -15,7 +15,7 @@ Wat mij ook opviel: op jullie huidige website staat bij "Ervaringen van klanten"
 
 Daarom heb ik alvast een voorbeeld gemaakt van hoe jullie website eruit zou kunnen zien, met jullie eigen diensten, foto's en werkgebied:
 
-👉 **[DEMO-LINK]**
+👉 **https://s-bouw-demo.vercel.app**
 
 Het is volledig vrijblijvend. Ik bel jullie [dag] even om te horen wat jullie ervan vinden. Bellen of appen jullie liever zelf? Dat kan op [jouw nummer].
 
@@ -37,6 +37,6 @@ Met vriendelijke groet,
 
 ## Nog te doen vóór verzending
 
-- [ ] Demo hosten (Cloudflare Pages / Netlify) en de link invullen
+- [x] Demo online: https://s-bouw-demo.vercel.app
 - [ ] De drie lege reviewvakken in de demo blijven bewust leeg. Vul geen verzonnen reviews in.
 - [ ] Je eigen naam en telefoonnummer invullen in de mail
